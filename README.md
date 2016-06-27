@@ -15,11 +15,11 @@ Download or clone repo
 $ npm start
 ```
 
-## Documentation
+## Fabricator Documentation
 
 #### [Read the docs →](http://fbrctr.github.io/docs)
 
-## Demo
+## Fabricator Demo
 
 #### [Default Fabricator Instance →](http://fbrctr.github.io/demo)
 
