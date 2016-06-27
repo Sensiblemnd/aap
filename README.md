@@ -10,8 +10,8 @@ Fabricator is a tool for building website UI toolkits - _think ["Tiny Bootstraps
 
 ## Quick Start
 
-```Download or clone repo
-
+```shell
+Download or clone repo
 $ npm start
 ```
 
