@@ -1,0 +1,40 @@
+.header {
+	position: relative;
+	
+	 border-top: 50px solid  base-color('dark');
+	 @media (min-width: $screen-sm-min) {
+		 background-image: url("../images/city.png");
+	}
+	 img {
+	 	max-width: 1340px;
+	 	width: 100%;
+	 	
+	 }
+	 &-mobile {
+		
+		.content {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			text-align: center;
+			color:#fff;
+			padding-bottom: 17px;
+			img{
+				-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+				box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+			}
+		}
+		h3 {
+			font-size: 1.2rem;
+			margin: 19px 0 0 0;
+		}
+		span {
+			font-size: 1.1rem;
+		}
+
+
+	 }
+}
+

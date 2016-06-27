@@ -7,14 +7,20 @@
 @import 'vendor/_bootstrap.scss';
 
 
-@import 'utils/variables',
-	'utils/functions',
-	'utils/mixins',
-	'utils/helpers';
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/mixins';
+@import 'utils/helpers';
 	
 @import 'base/index',
 	'base/fonts',
 	'base/table',
 	'base/typography';
+	
+@import 'components/button';
+
+@import 'structures/header',
+	'structures/section',
+	 'structures/footer';
 
 

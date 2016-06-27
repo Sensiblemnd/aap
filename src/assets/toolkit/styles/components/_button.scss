@@ -1,0 +1,89 @@
+.buttons { //button wrapper
+	text-align: center;
+	width: 244px;
+	margin: 0 auto;
+	/* Small devices (tablets, 768px and up) */
+	@media (min-width: $screen-sm-min) {
+		width: auto;
+	}
+
+	/* Medium devices (desktops, 992px and up) */
+	@media (min-width: $screen-md-min) {
+		width: auto;
+	}
+}
+
+.btn {
+	//main button overrides.
+	@extend .btn-block;
+	display: inline-block;
+	width: 244px;
+	max-width: 244px;
+	height: 60px;
+	color: #fff;
+	font-size: 1.6rem;
+	transition: all 0.5s ease;
+	margin-bottom: 10px;
+	color:#fff;
+	/* Small devices (tablets, 768px and up) */
+	@media (min-width: $screen-sm-min) {
+		margin-bottom: 20px;
+		&:nth-last-child(3){
+			margin:0;
+		}
+	}
+
+	
+	&:hover {
+		color:#fff;
+	}
+	&-jordy {
+		background-color:  base-color('jordy-blue');
+		border-color:   base-color('jordy-blue');
+		border-radius: 25px;
+		text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+		&:hover {
+			background-color: darken(#93adf5, 10%);
+    			border-color:darken( #93adf5, 10%);
+		}
+	}
+	&-carissma {
+		background-color:  base-color('carissma');
+		border-color:   base-color('carissma');
+		border-radius: 0;
+		&:hover {
+			background-color: darken( #ea8493, 10%);
+    			border-color:darken( #ea8493, 10%);
+		}
+	}
+	&-cream {
+		background-color:  base-color('cream-can');
+		border-color:   base-color('cream-can');
+		border-radius: 15px;
+		&:hover {
+			background-color: darken( #f2d256 , 10%);
+    			border-color:darken( #f2d256, 10%);
+		}
+	}
+	&-sulu {
+		background-color:  base-color('sulu');
+		border-color:   base-color('sulu');
+		border-radius: 0;
+		-webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+				-moz-box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.5);
+				box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+		&:hover {
+			background-color: darken(#a4eb89, 10%);
+    			border-color:darken(#a4eb89, 10%);
+		}
+	}
+
+}
+
+.btn + .btn {
+	@media (min-width: $screen-sm-min) {
+		margin-left: 97px;
+
+	}
+}

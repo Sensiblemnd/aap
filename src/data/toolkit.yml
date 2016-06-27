@@ -1,8 +1,9 @@
 colors:
   primary:
-    Dark: "rgb(30, 30, 30)"
-    Light: "rgb(242, 242, 242)"
-  secondary:
-    Red: "rgb(201, 55, 6)"
-    Yellow: "rgb(252, 207, 80)"
-    Blue: "rgb(39, 102, 143)"
+    Dark: "#1d1b1b"
+    Light: "#b3b3b3"
+    Lighter: "#dadada"
+    Jordy-Blue: "#93adf5"
+    Carissma: "#ea8493"
+    Cream-Can: "#f2d256"
+    Sulu: "#A4EB89"

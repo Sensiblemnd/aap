@@ -9,7 +9,7 @@
 
 const $ = require('jquery');
 
-
+//example JS code for app
 
 let app = {
 	init: function() {
@@ -19,15 +19,6 @@ let app = {
 	eventListener: function(){
 		let that = this;
 		
-	},
-	favorite: function(){
-		console.log('favorite');
-	},
-	getPhotos: function(){
-		console.log('get photos');
-	},
-	filterDuplicatePhotos: function(){
-		console.log('filter!');
 	}
 };
 
