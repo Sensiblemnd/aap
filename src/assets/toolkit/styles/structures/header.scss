@@ -1,6 +1,7 @@
 .header {
 	position: relative;
-	
+	max-width: 1280px;
+	margin: 0 auto;
 	 border-top: 50px solid  base-color('dark');
 	 @media (min-width: $screen-sm-min) {
 		 background-image: url("../images/city.png");

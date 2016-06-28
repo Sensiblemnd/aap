@@ -1,6 +1,6 @@
 .buttons { //button wrapper
 	text-align: center;
-	width: 244px;
+	//width: 244px;
 	margin: 0 auto;
 	/* Small devices (tablets, 768px and up) */
 	@media (min-width: $screen-sm-min) {
@@ -17,8 +17,8 @@
 	//main button overrides.
 	@extend .btn-block;
 	display: inline-block;
-	width: 244px;
-	max-width: 244px;
+	//width: 244px;
+	//max-width: 244px;
 	height: 60px;
 	color: #fff;
 	font-size: 1.6rem;
@@ -42,6 +42,12 @@
 		border-color:   base-color('jordy-blue');
 		border-radius: 25px;
 		text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+		@media (min-width: $screen-sm-min) {
+			border-radius: 0;
+		}
+		@media (min-width: $screen-md-min) {
+				border-radius: 25px;
+		}
 		&:hover {
 			background-color: darken(#93adf5, 10%);
     			border-color:darken( #93adf5, 10%);
@@ -59,7 +65,13 @@
 	&-cream {
 		background-color:  base-color('cream-can');
 		border-color:   base-color('cream-can');
-		border-radius: 15px;
+		border-radius:15px;
+		@media (min-width: $screen-sm-min) {
+			border-radius: 0;
+		}
+		@media (min-width: $screen-md-min) {
+				border-radius: 25px;
+		}
 		&:hover {
 			background-color: darken( #f2d256 , 10%);
     			border-color:darken( #f2d256, 10%);
